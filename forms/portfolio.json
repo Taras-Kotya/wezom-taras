@@ -1,0 +1,56 @@
+{
+    "name": "formName",
+    "title": "Registration form",
+    "description": "simple JFG example.",
+    "method": "post",
+    "action": "post/portfolio.php",
+    "properties": {
+        "firstName": {
+            "type": "input",
+            "title": "First name",
+            "name": "firstName",
+            "value": "test",
+            "required": true,
+            "onChange": "console.log(this.value)"
+        },
+        "lastName": {
+            "type": "input",
+            "title": "Last name",
+            "name": "lastName",
+            "disabled": true
+        },
+        "age": {
+            "type": "number",
+            "title": "Age",
+            "name": "age"
+        },
+        "bio": {
+            "type": "input",
+            "title": "Bio",
+            "name": "bio",
+            "placeholder": "Biography"
+        },
+        "password": {
+            "type": "password",
+            "title": "Password",
+            "name": "password",
+            "min": 3
+        },
+        "language": {
+            "type": "select",
+            "title": "Language",
+            "name": "lang",
+            "options": {
+                "en": "English",
+                "fa": "Farsi",
+                "de": "German"
+            }
+        },
+        "submit": {
+            "type": "submit",
+            "value": "Save Form",
+            "name": "submit",
+            "class": "mdc-button mdc-button--raised"
+        }
+    }
+}

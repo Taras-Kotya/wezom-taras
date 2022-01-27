@@ -1,0 +1,44 @@
+{
+    "name": "formReg",
+    "title": "Контактна книга",
+    "method": "post",
+    "action": "post/reg.php",
+    "properties": {
+        "name": {
+            "type": "input",
+            "title": "Ім'я",
+            "name": "name",
+            "placeholder": "your_name",
+            "required": true
+        },
+        "surname": {
+            "type": "input",
+            "name": "surname",
+            "title": "Прізвище",
+            "placeholder": "your_surname",
+            "required": true
+        },
+        "tel": {
+            "type": "number",
+            "name": "tel",
+            "title": "Телефон",
+            "value": "+380501122333",
+            "placeholder": "+380501122333",
+            "required": true
+        },
+        "email": {
+            "type": "email",
+            "name": "email",
+            "title": "Емейл",
+            "value": "example@mail.com",
+            "placeholder": "example@mail.com",
+            "required": true
+        },
+        "submit": {
+            "type": "submit",
+            "value": "Залишити контакт",
+            "name": "submit",
+            "class": "mdc-button mdc-button--raised"
+        }
+    }
+}

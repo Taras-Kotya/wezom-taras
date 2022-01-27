@@ -1,0 +1,73 @@
+[
+    {
+        "question": "Хто переміг в ВОВ?",
+        "type": "radio",
+        "name": "question1",
+        "answers": [
+            {
+                "text": "CCCР",
+                "is_valid": "true"
+            },
+            {
+                "text": "США",
+                "is_valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Чи є Бог у світі?",
+        "type": "radio",
+        "name": "question2",
+        "answers": [
+            {
+                "text": "Да",
+                "is_valid": "true"
+            },
+            {
+                "text": "Нет",
+                "is_valid": "false"
+            },
+            {
+                "text": "Наука не в курсе дела",
+                "is_valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Улюблена тварина",
+        "type": "checkbox",
+        "name": "question3",
+        "answers": [
+            {
+                "text": "Кот",
+                "value": "cat"
+            },
+            {
+                "text": "Собака барабака",
+                "value": "dog"
+            },
+            {
+                "text": "Конь",
+                "value": "hourse"
+            }
+        ]
+    },
+    {
+        "question": "Твій пол",
+        "type": "select",
+        "name": "question4",
+        "answers": [
+            {
+                "text": "Хлопець"
+            },
+            {
+                "text": "Дівчина "
+            }
+        ]
+    },
+    {
+        "question": "Твоє ім'я",
+        "type": "input",
+        "name": "question5"
+    }
+]
